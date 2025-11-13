@@ -85,4 +85,4 @@ If you omit the `name` field or send invalid JSON, the server will return a
 - Add streaming endpoints or WebSocket support for real-time model interactions.
 - Add examples and tests, or containerize with a Dockerfile for easy sharing.
 
-Happy hacking — and let me know what feature you'd like next! 🛠️😊
+Happy hacking! 🛠️😊
