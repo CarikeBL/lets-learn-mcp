@@ -1,6 +1,6 @@
 # Let's Learn MCP 🚀
 
-Welcome to the **Let's Learn MCP** demo — a tiny .NET project that shows how
+Welcome to the **Let's Learn MCP** demo, a tiny .NET project that shows how
 you can build a minimal MCP (Model Context Protocol) server and experiment with
 AI integrations. This repo provides a small ASP.NET Core app that exposes a
 single endpoint, `POST /sayHello`, which returns a friendly JSON greeting.
@@ -15,7 +15,7 @@ single endpoint, `POST /sayHello`, which returns a friendly JSON greeting.
 **MCP (Model Context Protocol)** is a lightweight pattern for exchanging structured
 messages and context between orchestration layers, tools, and AI models. Think
 of it like a small set of agreed-upon HTTP endpoints and JSON shapes that let
-components talk to each other in a predictable way — e.g., sending context to
+components talk to each other in a predictable way e.g. sending context to
 models, requesting an action, or returning structured results.
 
 In plain words: MCP helps different pieces of an AI system agree on how to ask
@@ -84,10 +84,5 @@ If you omit the `name` field or send invalid JSON, the server will return a
 	actions from model outputs.
 - Add streaming endpoints or WebSocket support for real-time model interactions.
 - Add examples and tests, or containerize with a Dockerfile for easy sharing.
-
-**Contributing / Notes**
-- This is a demo for .NET Conf-style learning — keep it simple and tweak away!
-- If you want, I can add example AI client code (Node/Python/C#) or a Docker
-	setup so you can run the demo anywhere.
 
 Happy hacking — and let me know what feature you'd like next! 🛠️😊
